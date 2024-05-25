@@ -1,0 +1,5 @@
+
+x=msgbox("WARNING: THIS WAS NOT MADE FOR MALICIOUS PURPOSES. YOU CAN EASILY REBOOT YOUR PC TO FIX THIS AFTER RUNNING." ,48, "WARNING")
+
+WScript.Sleep 1000
+if x=1 then CreateObject("WScript.Shell").Run "EXEC.bat"

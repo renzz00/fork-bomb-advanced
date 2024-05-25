@@ -1,0 +1,1 @@
+x=msgbox("YOUR PC IS FUCKED" ,16, "LOL")
